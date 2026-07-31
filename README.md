@@ -1,16 +1,41 @@
-# React + Vite
+# PARADOXA 🧠✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **15 Dakika Araştır • 2 Dakikada Diksiyonla Anlat • AI Bağımlılığını Yen**
 
-Currently, two official plugins are available:
+🌐 **Canlı Site:** [https://efealierenkuyucu.github.io/paradoxa/](https://efealierenkuyucu.github.io/paradoxa/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 PARADOXA Nedir?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+PARADOXA, sosyal medyanın yarattığı zihinsel uyuşukluğa ve yapay zeka bağımlılığına karşı tasarlanmış etkileşimli bir zihin ve hitabet geliştirme platformudur.
 
-## Expanding the Oxlint configuration
+### 💡 Çalışma Mantığı:
+1. **Gizemli Konu Keşfi:** Rastgele nadir bir kelime, psikolojik etki, felsefi paradoks veya bilimsel fenomen açılır.
+2. **15 Dakikalık Araştırma Deposu:** Kullanıcı 15 dakika boyunca kendi imkanlarıyla konuyu detaylıca araştırır ve notlar alır.
+3. **2 Dakikalık Diksiyon Arenası:** Canlı mikrofon kaydı ve Web Speech API desteğiyle 2 dakika boyunca konuyu bir dinleyiciye anlatır.
+4. **Gerçek Zamanlı Analiz & Kodex:** Konuşma hızı (WPM), dolgu kelimeleri (*"şey/yani/ee"*) ve netlik skoru hesaplanıp kişisel Kodex kütüphanesine kaydedilir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🚀 Yerel Geliştirme
+
+```bash
+# Projeyi klonlayın
+git clone https://github.com/EfeAliErenKuyucu/paradoxa.git
+cd paradoxa
+
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirici sunucusunu başlatın
+npm run dev
+```
+
+---
+
+## 📦 GitHub Pages Yayınlama
+
+```bash
+npm run deploy
+```
