@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Fast Hardware-Accelerated Body */
+body {
+  margin: 0;
+  background-color: #070709;
+  color: #EDEDED;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fast Hardware Accelerated Minimal Cards (No Heavy GPU Blur Repaints) */
+.minimal-card {
+  background: #0D0D11;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transform: translateZ(0); /* Force GPU composite layer */
+  backface-visibility: hidden;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.minimal-card:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.minimal-input {
+  background: #121217;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #F3F4F6;
+  transition: border-color 0.15s ease;
+}
+
+.minimal-input:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070709;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+/* Fast CSS Animation */
+@keyframes soft-fade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-soft-fade {
+  animation: soft-fade 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
